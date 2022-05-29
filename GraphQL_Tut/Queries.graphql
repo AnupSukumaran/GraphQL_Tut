@@ -1,0 +1,12 @@
+query SpecificCountry{
+	country(code: "DE"){
+		name
+		native
+		capital
+		currency
+		emoji
+		states{
+			name
+		}
+	}
+}
